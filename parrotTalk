@@ -1,0 +1,14 @@
+public boolean parrotTrouble(boolean talking, int hour) 
+{
+  if(talking && (hour < 7 || hour > 20))
+  {
+    return true;
+  }
+  
+  return false;
+}
+
+/* 
+If the parrot is talking(true) and the hour is less than 7 or the hour is greater than 20,
+program returns true. Else it returns false.
+*/
