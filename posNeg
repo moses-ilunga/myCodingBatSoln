@@ -1,0 +1,17 @@
+public boolean posNeg(int a, int b, boolean negative) 
+{
+  if(!negative && ((a > 0 && b < 0) || (a<0 && b > 0)))
+  {
+    return true;
+  }
+  
+  if(negative && a < 0 && b < 0)
+  {
+    return true;
+  }
+  return false;
+}
+
+// Returns true if negative is false and a or b is less than 0 and the other is greater than 0
+// Retruns true if negative is trei and a and b is negative
+// otherwise returns false for all other conditions
